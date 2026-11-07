@@ -1,4 +1,4 @@
-# Carrie-s-Guide-to-MeshCore
+# Carrie's Guide to MeshCore
 A braindump of all the things I wish I knew when I first got on the Mesh!  Radio settings are for SLO and the rest are my suggestions for a good time.
 
 ## Flashing MeshCore:
