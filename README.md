@@ -3,11 +3,12 @@ A braindump of all the things I wish I knew when I first got on the Mesh!  Radio
 
 ## Flashing MeshCore:
 * Go here to reflash it: https://flasher.meshcore.io/
-* Scroll down, choose RAK WisMesh Tag.
+* Scroll down, choose your device.
 * Then choose Companion Bluetooth.
 * Click "Enter DFU Mode".  Your browser will ask to allow serial port access, probably Tiny USB.  Click Allow.
 * If a folder window pops up with a D: drive containing UF2 files, ignore it.
-* Then click Flash!.Another serial port pop-up will happen, probably saying nRF something, click Allow.
+* Then click Flash!.
+* Another serial port pop-up will happen, probably saying nRF something, click Allow.
 * Wait for flashing to be done, don't disconnect the USB cable until you see a Flash Complete! message.  Then you're good!
 
 If the Enter DFU Mode button doesn't work, you can do it from the device.  Usually you double-click the device's reset button, if that doesn't work, refer to your device's manual.
