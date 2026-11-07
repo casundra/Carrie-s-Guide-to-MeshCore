@@ -44,7 +44,7 @@ If the Enter DFU Mode button doesn't work, you can do it from the device.  Usua
 ## Position Settings:
 You can enable or disable GPS (assuming your node has GPS).  Even with GPS enabled, there's the choice to share your position or not when you send a public advert (I'd recommend leaving that off).
 
-## Now send some messages! 
+# Now send some messages! 
 
 ## Channels:
 * Go to Channels.  Public should be there by default.  From the 3 dot menu, add two hashtag channels: #test and if you are around San Luis Obispo, #slo (other cities will have local channels, dig around the internet for what yours is).
@@ -67,7 +67,7 @@ You can enable or disable GPS (assuming your node has GPS).  Even with GPS enab
 * The Discover Contacts I believe is stored on your phone, and will show everyone and every repeater you've ever heard.
 * Under the 3 dot menu you'll also see Internet Map.  This is what has been reported to the Mesh, so you can use this to see if there are any repeaters around you that you *should* be seeing.
 
-# Contacts & Channels Sending Encrypted Messages:
+## Contacts & Channels Sending Encrypted Messages:
 * Add Contacts is under the 3 dot menu.
 * You can add someone as a Contact by scanning or exchanging QR codes
 * You can also send an "advert" to the mesh which is public and everyone in range will hear.  Both of you will have to do this so you can add each other as Contacts.
@@ -77,4 +77,4 @@ You can enable or disable GPS (assuming your node has GPS).  Even with GPS enab
 * Add Channel is under the 3 dot menu.
 * You can create or join a Private Channel which is essentially a private encrypted group chat.
 
-## Have fun chatting with randos on the radio!
+# Have fun chatting with randos on the radio!
