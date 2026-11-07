@@ -3,6 +3,7 @@ A braindump of all the things I wish I knew when I first got on the Mesh!  Radio
 
 ## Flashing MeshCore:
 * Go here to reflash it: https://flasher.meshcore.io/
+* Plug your device into your computer via USB
 * Scroll down, choose your device.
 * Then choose Companion Bluetooth.
 * Click "Enter DFU Mode".  Your browser will ask to allow serial port access, probably Tiny USB.  Click Allow.
