@@ -25,14 +25,14 @@ If the Enter DFU Mode button doesn't work, you can do it from the device.  Usua
 * I'd recommend leaving "Share Position in Advert" unchecked unless you want everyone on the mesh to know where you are when you send an advert.  This can be fun to do if you're hiking or something and not in your actual house.
 
 ## Make sure your Radio Settings are those of your region.  San Luis Obispo uses:
-Frequency: 910.525 MHz
-Bandwidth: 62.5 kHz
-Spreading Factor: 7
-Coding Rate: 5
-Enable Repeat Mode should always be OFF (unchecked)
+* Frequency: 910.525 MHz
+* Bandwidth: 62.5 kHz
+* Spreading Factor: 7
+* Coding Rate: 5
+* Enable Repeat Mode should always be OFF (unchecked)
 
 ## Networks Settings:
-* set Default Path Hash Size to 2-byte
+* set Default Path Hash Size to 2-byte (this is explained more below)
 
 ## Contact Settings:
 * select Auto Add All and Overwrite Oldest
