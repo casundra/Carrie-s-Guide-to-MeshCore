@@ -15,7 +15,7 @@ If the Enter DFU Mode button doesn't work, you can do it from the device.  Usua
 ## Using the MeshCore app:
 * Download it.  It should just be called MeshCore.
 * Make sure Bluetooth is turned on, but don't pair anything from your phone's Bluetooth settings panel.
-* Go to the app to pair it.  The pairing code is 123456.
+* Go to the app to pair it.  If your device doesn't have a screen, the pairing code is 123456.  Otherwise the code will be shown on the screen.
 * If it asks you to choose a preset or area of the world, choose USA.
 
 ## Settings:
