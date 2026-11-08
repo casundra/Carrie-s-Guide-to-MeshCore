@@ -17,7 +17,7 @@ If you don't have a device yet, here's a [Shopping List](MeshCore%20Shopping%20L
 If the Enter DFU Mode button doesn't work, you can do it from the device.  Usually you double-click the device's reset button, if that doesn't work, refer to your device's manual.
 
 ## Using the MeshCore app:
-* Download it.  It should just be called MeshCore.
+* Download it.  It should just be called MeshCore.  There are others, but just start with the regular/official one.
 * Make sure Bluetooth is turned on, but don't pair anything from your phone's Bluetooth settings panel.
 * Go to the app to pair it.  If your device doesn't have a screen, the pairing code is 123456.  Otherwise the code will be shown on the screen.
 * If it asks you to choose a preset or area of the world, choose USA.
@@ -42,7 +42,7 @@ If the Enter DFU Mode button doesn't work, you can do it from the device.  Usua
 * select Auto Add All and Overwrite Oldest
 
 ## Notification Settings:
-* set to whatever you want.  Note that "New Contact Discovered" will include repeaters, and this will notify its head off for the first few days you're connected.
+* Set to whatever you want.  Note that "New Contact Discovered" will include repeaters, and this will notify its head off for the first few days you're connected.
 * You probably want Contact Messages and New Messages while Disconnected.
 
 ## Position Settings:
@@ -58,10 +58,10 @@ You can enable or disable GPS (assuming your node has GPS).  Even with GPS enab
 * There are Channel Settings under the 3 dot menu, you can change notifications for each channel and also set how long your phone keeps the messages around.  For Public and #hashtag channels, you might want to set this to just a few days instead of "Keep All".
 
 ## How the Map Works and How Repeaters Behave:
-* At first, you will see nothing on the map.  Don't panic!  This is normal.  You'll have to keep your node on and in good range of a repeater for a few days for your map to populate.  Why?
-* Repeaters only send out identifying information (incl name and location) once or twice a day.  They don't do it more often because you don't want the mesh clogged up with repeater announcements.  If your node isn't on or isn't in range when a repeater sends this info, you'll miss it.  A repeater will only appear on the map once it hears this announcement.  But it'll still pass on messages, your node will still hear and use it.  It'll just show up in the path list as "Unknown Repeater".
-* A good thing to do when in a new spot is to go into the main 3 dot menu, select Tools, then Discover Nearby Nodes, then Discover Repeaters.  This will populate with a list of repeaters your node can directly hear.  I think you can request the name of the repeater if it's still "Unknown" but I don't think you'll get the location, so it still may not show up on your map until you hear it's official advert.
-* Above, I recommended setting the "Default Path Hash Size" to 2.  This is getting into the weeds, but it's important to know.  Repeaters have unique IDs that are very long.  To not clog up the mesh, they just add the first few bytes of their ID to messages, so you can identify the message path.  But we can see so many repeaters all over California, that we need to use 2 bytes instead of just 1 byte to identify them, because many repeaters have the same first byte.  If you only have 1 byte enabled and look at a mapped signal path, it'll be all over the place because it won't know which repeater it actually went through.  Setting your path size to 2 bytes can affect your mesh connectivity a little bit - if repeaters in the area haven't been updated in a while and are still set to 1 byte, they'll drop your message.  But the local SLO repeaters are almost all using 2 byte codes, so you should be fine.  If you have a lot of trouble connecting to the mesh, you can try setting your node to 1 byte.  You'll then be able to use both 1 byte AND 2 byte repeaters.  But your signal paths will be hard to understand.
+* At first, you will see nothing on the map.  **Don't panic!**  This is normal.  You'll have to keep your node on and in good range of a repeater for a few days for your map to populate.  Why?
+* Repeaters only send out identifying information (incl name and location) once or twice a day.  They don't do it more often because you don't want the mesh clogged up with repeater announcements.  If your node isn't on or isn't in range when a repeater sends this info, you'll miss it.  A repeater will only appear on the map once it hears this announcement, but it'll still pass on messages, and your node will still hear and use it.  It'll just show up in the path list as "Unknown Repeater".
+* A good thing to do when in a new spot is to go into the main 3 dot menu, select Tools, then Discover Nearby Nodes, then Discover Repeaters.  This will populate with a list of repeaters your node can directly hear.  You can request the name of the repeater if it's still "Unknown" but you won't get the location, so it still won't show up on your map until you hear its official advert.
+* Above, I recommended setting the "Default Path Hash Size" to 2.  This is getting into the weeds, but it's important to know.  Repeaters have unique IDs that are very long.  To not clog up the mesh, they just add the first few bytes of their ID to messages, so you can identify the message path.  But we can see so many repeaters all over California, that we need to use 2 bytes instead of just 1 byte to identify them, because many repeaters have the same first byte.  If you only have 1 byte enabled and look at a mapped signal path, it'll be all over the place because it won't know which repeater it actually went through.  Setting your path size to 2 bytes will result in a much better map, so you can actually see the path the message took to get to you!  The 2 byte setting can affect your mesh connectivity a little bit - if repeaters in your area haven't been updated in a while and are still set to 1 byte, they'll drop your message.  But the local SLO repeaters are almost all using 2 byte codes, so you should be fine.  If you have a lot of trouble connecting to the mesh, you can try setting your node to 1 byte.  You'll then be able to use both 1 byte AND 2 byte repeaters.  But your mapped signal paths will be bad and hard to understand.
 
 ## Discover Contacts and its Map vs normal Contacts and Map vs Internet Map:
 * Under the 3 dot menu, you'll see Discover Contacts.
@@ -71,7 +71,7 @@ You can enable or disable GPS (assuming your node has GPS).  Even with GPS enab
 * The Discover Contacts I believe is stored on your phone, and will show everyone and every repeater you've ever heard.
 * Under the 3 dot menu you'll also see Internet Map.  This is what has been reported to the Mesh, so you can use this to see if there are any repeaters around you that you *should* be seeing.
 
-## Contacts & Channels Sending Encrypted Messages:
+## Contacts & Channels, Sending Encrypted Messages:
 * Add Contacts is under the 3 dot menu.
 * You can add someone as a Contact by scanning or exchanging QR codes
 * You can also send an "advert" to the mesh which is public and everyone in range will hear.  Both of you will have to do this so you can add each other as Contacts.
