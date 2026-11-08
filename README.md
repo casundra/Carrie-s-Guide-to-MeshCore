@@ -1,6 +1,8 @@
 # Carrie's Guide to MeshCore
 A braindump of all the things I wish I knew when I first got on the Mesh!  Radio settings are for SLO and the rest are my suggestions for a good time.
 
+If you don't have a device yet, here's a [Shopping List](MeshCore%20Shopping%20List.md).  Almost any Meshtastic device can be re-flashed with MeshCore firmware.  All the radio gear is the same.
+
 ## Flashing MeshCore:
 * Go here to reflash it: https://flasher.meshcore.io/
 * Plug your device into your computer via USB
