@@ -17,10 +17,10 @@ These use your phone as a display and keyboard via Bluetooth.  A few have small 
 | :---- | :---- | :---- | :---- | :---- | :---- |
 | Seeed Wio Tracker L1 Pro | [\$48 (seeed)](https://www.seeedstudio.com/Wio-Tracker-L1-Pro-for-Meshcore-p-6717.html) [\$60 (Amazon)](https://www.amazon.com/seeed-studio-L1-Pro-Tracker/dp/B0FNCS5ST1) | No | OLED | Yes | External |
 | Seeed SenseCap MeshTracker X1 | [\$50 (seeed)](https://www.seeedstudio.com/sensecap-meshtracker-x1-meshtastic-gps-tracker-p-6935.html) | Yes | None | Yes | Internal |
-| Lilygo T-Echo | [\$63 (Amazon)](https://www.amazon.com/LILYGO-Wireless-Meshtastic-Development-NRF52840/dp/B0B658DZ9Z)[\$70 (Rokland)](https://store.rokland.com/products/lilygo-ttgo-meshtastic-t-echo-white-bme280-lora-sx1262-wireless-module-915mhz-nrf52840-gps-rtc-nfc-for-arduino) | No | E-Ink | Yes | External |
+| Lilygo T-Echo | [\$63 (Amazon)](https://www.amazon.com/LILYGO-Wireless-Meshtastic-Development-NRF52840/dp/B0B658DZ9Z) [\$70 (Rokland)](https://store.rokland.com/products/lilygo-ttgo-meshtastic-t-echo-white-bme280-lora-sx1262-wireless-module-915mhz-nrf52840-gps-rtc-nfc-for-arduino) | No | E-Ink | Yes | External |
 | Heltec Mesh Node T1 | [\$40 (Heltec)](https://heltec.org/project/mesh-node-t1/) | Yes | LCD | Yes | Internal |
-| Heltec MeshPocket Qi2 | [\$49 (Heltec)](https://heltec.org/project/meshpocket/)[\$69 (Amazon)](https://www.amazon.com/Heltec-MeshPocket-Meshtastic-Compatible-Emergency/dp/B0F7LD3BQG)[\$79 (Rokland)](https://store.rokland.com/collections/heltec-products/products/heltec-meshpocket-qi2-magnetic-charging-power-bank-meshtastic-compatible) | No | E-Ink | No | Internal |
-| Elecrow ThinkNode M1 | [\$54 (Elecrow)](https://www.elecrow.com/thinknode-m1-meshtastic-lora-signal-transceiver-powered-by-nrf52840-with-154-screen-support-gps.html)[\$63 (Rokland)](https://store.rokland.com/collections/elecrow/products/elecrow-thinknode-m1-lora-meshtastic-radio-1-54-epd-screen-gps-nrf52840)[\$77 (Amazon)](https://www.amazon.com/ELECROW-Transceiver-Compatible-Meshtastic-nRF52840/dp/B0FPLWYB8R) | No | E-Ink | Yes | External |
+| Heltec MeshPocket Qi2 | [\$49 (Heltec)](https://heltec.org/project/meshpocket/) [\$69 (Amazon)](https://www.amazon.com/Heltec-MeshPocket-Meshtastic-Compatible-Emergency/dp/B0F7LD3BQG) [\$79 (Rokland)](https://store.rokland.com/collections/heltec-products/products/heltec-meshpocket-qi2-magnetic-charging-power-bank-meshtastic-compatible) | No | E-Ink | No | Internal |
+| Elecrow ThinkNode M1 | [\$54 (Elecrow)](https://www.elecrow.com/thinknode-m1-meshtastic-lora-signal-transceiver-powered-by-nrf52840-with-154-screen-support-gps.html) [\$63 (Rokland)](https://store.rokland.com/collections/elecrow/products/elecrow-thinknode-m1-lora-meshtastic-radio-1-54-epd-screen-gps-nrf52840) [\$77 (Amazon)](https://www.amazon.com/ELECROW-Transceiver-Compatible-Meshtastic-nRF52840/dp/B0FPLWYB8R) | No | E-Ink | Yes | External |
 
 ### Standalone
 
@@ -28,10 +28,10 @@ These devices have keyboards and screens that let you use them fully independent
 
 | Model | Price | Weather-proof | Screen | GPS | Antenna |
 | :---- | :---- | :---- | :---- | :---- | :---- |
-| Lilygo T-Lora Pager | [\$87 (Lilygo)](https://lilygo.cc/products/t-lora-pager-meshcore?variant=53105158521013)[\$115 (Rokland)](https://store.rokland.com/products/lilygo-t-lora-pager-us-915-mhz-lora-esp32-s3-handheld-aiot-programmable-development-device-k257-01) | No | E-Ink | Yes | External |
-| Lilygo T-Deck Plus | [\$71 (Lilygo)](https://lilygo.cc/products/t-deck-plus-1?variant=44897766408373)[\$100 (Rokland)](https://store.rokland.com/products/lilygo-t-deck-portable-microcontroller-programmer-lora-915-mhz-h642?variant=42283977834579) | No | LCD | Yes | Internal |
-| Lilygo T-Deck Plus (ext. ant.) | [\$76 (Lilygo)](https://lilygo.cc/products/t-deck-plus-1?variant=45420343918773)[\$80 (Amazon)](https://www.amazon.com/LILYGO-ESP32-S3-Computer-2-8-inch-Development/dp/B0DSFTKT5V)[\$110 (Rokland)](https://store.rokland.com/products/lilygo-t-deck-portable-microcontroller-programmer-lora-915-mhz-h642?variant=43009954906195) | No | LCD | Yes | External |
-| Lilygo T-Deck Pro | [\$95 (Lilygo)](https://lilygo.cc/products/t-deck-pro)[\$115 (Amazon)](https://www.amazon.com/LILYGO-T-Deck-Wireless-Development-Viewing/dp/B0F32PQ8SD) | No | E-Ink | Yes | Internal |
+| Lilygo T-Lora Pager | [\$87 (Lilygo)](https://lilygo.cc/products/t-lora-pager-meshcore?variant=53105158521013) [\$115 (Rokland)](https://store.rokland.com/products/lilygo-t-lora-pager-us-915-mhz-lora-esp32-s3-handheld-aiot-programmable-development-device-k257-01) | No | E-Ink | Yes | External |
+| Lilygo T-Deck Plus | [\$71 (Lilygo)](https://lilygo.cc/products/t-deck-plus-1?variant=44897766408373) [\$100 (Rokland)](https://store.rokland.com/products/lilygo-t-deck-portable-microcontroller-programmer-lora-915-mhz-h642?variant=42283977834579) | No | LCD | Yes | Internal |
+| Lilygo T-Deck Plus (ext. ant.) | [\$76 (Lilygo)](https://lilygo.cc/products/t-deck-plus-1?variant=45420343918773) [\$80 (Amazon)](https://www.amazon.com/LILYGO-ESP32-S3-Computer-2-8-inch-Development/dp/B0DSFTKT5V) [\$110 (Rokland)](https://store.rokland.com/products/lilygo-t-deck-portable-microcontroller-programmer-lora-915-mhz-h642?variant=43009954906195) | No | LCD | Yes | External |
+| Lilygo T-Deck Pro | [\$95 (Lilygo)](https://lilygo.cc/products/t-deck-pro) [\$115 (Amazon)](https://www.amazon.com/LILYGO-T-Deck-Wireless-Development-Viewing/dp/B0F32PQ8SD) | No | E-Ink | Yes | Internal |
 | Elecrow ThinkNode M9 | [\$75 (Elecrow)](https://www.elecrow.com/thinknode-m9-meshcore-communication-terminal-with-full-keyboard-2-4inch-lcd-esp32-s3-lr1110-gps-2300mah.html) | No | LCD | Yes | External |
 
 ## Repeater
@@ -41,7 +41,7 @@ These optional devices are for fixed-location use to increase coverage of the me
 | Model | Price | Solar | GPS | Battery |
 | :---- | :---- | :---- | :---- | :---- |
 | Seeed SenseCAP P1 | [\$78 (seeed)](https://www.seeedstudio.com/SenseCAP-Solar-Node-P1-for-Meshtastic-LoRa-p-6425.html) | 5W | No | 4x 18650\* |
-| Seeed SenseCAP P1 Pro | [\$94 (seeed)](https://www.seeedstudio.com/SenseCAP-Solar-Node-P1-Pro-for-Meshcore-p-6741.html)[\$140 (Amazon)](https://www.amazon.com/SenseCAP-Solar-Node-P1-Pro-Communication/dp/B0FMDHBWX8) | 5W | Yes | 4x 18650 |
+| Seeed SenseCAP P1 Pro | [\$94 (seeed)](https://www.seeedstudio.com/SenseCAP-Solar-Node-P1-Pro-for-Meshcore-p-6741.html) [\$140 (Amazon)](https://www.amazon.com/SenseCAP-Solar-Node-P1-Pro-Communication/dp/B0FMDHBWX8) | 5W | Yes | 4x 18650 |
 | Heltec MeshTower V2 | [\$109 (Heltec)](https://heltec.org/project/meshtower/) | 10W | Yes | 3x 18650 |
 | Elecrow ThinkNode M6 | [\$80 (Elecrow)](https://www.elecrow.com/thinknode-m6-outdoor-solar-power-for-meshtastic-powered-by-nrf52840-supports-gps.html) | 6W | Yes | 2x 18650 |
 | RAK Wismesh Repeater Mini | [\$100 (Rokland)](https://store.rokland.com/products/wismesh-repeater-mini-reliable-coverage-expansion-for-smart-networks) | Yes | No | Yes |
