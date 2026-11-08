@@ -33,7 +33,7 @@ If the Enter DFU Mode button doesn't work, you can do it from the device.  Usua
 * Coding Rate: 5
 * Enable Repeat Mode should always be OFF (unchecked)
 
-## Networks Settings:
+## Network Settings:
 * set Default Path Hash Size to 2-byte (this is explained more below)
 
 ## Contact Settings:
@@ -78,5 +78,12 @@ You can enable or disable GPS (assuming your node has GPS).  Even with GPS enab
 * Once you've both added each other as Contacts, any messages sent between you are encrypted.
 * Add Channel is under the 3 dot menu.
 * You can create or join a Private Channel which is essentially a private encrypted group chat.
+
+## Meshtastic vs MeshCore:
+* Meshtastic is all device-to-device communication.  It's great for temporary adhoc netwokrs, or small networks in remote places.  The issue with Meshtastic is that it doesn't scale - every device repeats everything it hears, so if you have a lot of people in one area all talking, the bandwidth gets used up fast.
+* MeshCore attempts to solve this by using a system of repeaters to pass along messages.  Each device communicates with a repeater, the repeaters rebroadcast the message.  This allows a network of repeaters to cross long distances and connect larger user bases together.  There are still issues with scaling and repeaters getting overloaded, but it's a lot more robust and useful for fixed infrastructure situations (like comms within or between cities).
+* Since Meshtastic is all device to device, the map populates quickly as each person sends messages.  You can get an idea of how many people are on Meshtastic in your area pretty fast.  Since Meshcore relies on repeaters to identify themselves and users are invisible (unless they make a public advert), it takes a little longer for the map to populate and for you to get an idea of Meshcore infrastructure in your area.
+* Meshtastic has a really nice feature of automatically obfuscating your GPS location, and allowing you to choose the level of obfuscation.  So people see where your location is within a few km.  MeshCore doesn't have this, and has sharing location turned OFF by default.  If you enable it, you can choose to what to put as your GPS location - it can be your actual location, or you can make something up.  And that's only if you choose to manually send a public advert.  So you generally won't see many users on your map, or on your contacts lists.
+* To get an idea of the local MeshCore scene, go to the Public channel and see what the chatter is like.  Go to the Internet Map and see how many repeaters are in your area.  Make sure you have good repeater coverage.  There are LOTS of people on MeshCore, even here in SLO which is a small town for California.  if you're not seeing anything, you likely don't have a good connection to a repeater.
 
 # Have fun chatting with randos on the radio!
